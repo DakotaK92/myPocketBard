@@ -1,8 +1,12 @@
-import React,{ useState } from "react";
+import React from "react";
 import "./footer.css";
 
-const Navbar = () => {
+const Footer = () => {
+    return (
+        <div className="footer">
 
+        </div>
+    )
 };
 
 export default Footer;

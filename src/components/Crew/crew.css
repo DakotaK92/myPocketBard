@@ -1,7 +1,7 @@
-.footer {
+.crew {
+    background-color: var(--lightBlue);
     width: 100%;
     height: 100px;
-    background-color: var(--brown);
     display: flex;
     justify-content: center;
 }

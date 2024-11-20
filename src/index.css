@@ -8,6 +8,10 @@
 }
 
 :root {
+  --tan: #FEB66B;
+  --brown: #c6715a;
+  --lightBlue: #c5e1ed;
+  --darkRed: #992a2a;
   --white: #fff;
   --black: black;
 }
