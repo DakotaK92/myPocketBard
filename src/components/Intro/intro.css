@@ -7,15 +7,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 600px;
     width: 100%;
     padding: 50px;
-    font-size: 15px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(197,225,237,1) 50%);
+}
+
+.introContainer h1 {
+    font-size: 40px;
+    padding: 0 0 20px 0;
+}
+
+.introContainer p {
+    font-size: 30px;
+    padding: 0 0 20px 0;
+}
+
+.introInfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: none;
-    color: black;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(197,225,237,1) 50%);
+    padding: 20px 100px 20px 0;
+}
+
+.introContainer .iPhone {
+    display: flex;
+    width: 270px;
+    display: flex;
+    align-items: right;
+}
+
+.introBtns {
+ padding: 20px 0 0 0;
+}
+
+.introBtns .googlePlay{
+    padding: 0 20px 0 0;
+    width: 200px;
+}
+
+.introBtns .appleStore{
+    padding: 0 20px 0 0;
+    width: 200px;
 }
