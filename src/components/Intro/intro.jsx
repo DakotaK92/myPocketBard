@@ -1,8 +1,8 @@
 import React from "react";
 import "./intro.css";
 import iPhone from "../../assets/images/iPhone.png";
-import appleStore from "../../assets/images/Apple_Store.png";
-import googlePlay from "../../assets/images/Google_Play.png";
+import appleStore from "../../assets/images/Apple Store.png";
+import googlePlay from "../../assets/images/Google Play.png";
 
 const Intro = () => {
     return (
@@ -21,7 +21,6 @@ const Intro = () => {
                 </div>
                 <img src={iPhone} alt="iPhone" className="iPhone"/>
             </div>
-            
         </div>
     )
 };
