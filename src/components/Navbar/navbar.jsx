@@ -11,6 +11,7 @@ const Navbar = () => {
                 <h2>Price</h2>
                 <h2>FAQs</h2>
             </div>
+            <div className="empty"></div>
         </div>
     ) 
 };
