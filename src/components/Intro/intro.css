@@ -33,21 +33,33 @@
 
 .introContainer .iPhone {
     display: flex;
+    height: 400px;
     width: 270px;
     display: flex;
     align-items: right;
 }
 
 .introBtns {
- padding: 20px 0 0 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 20px 0 0;
 }
 
 .introBtns .googlePlay{
-    padding: 0 20px 0 0;
+    padding:0 20px 0 0;
     width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .introBtns .appleStore{
     padding: 0 20px 0 0;
     width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

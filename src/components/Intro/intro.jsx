@@ -1,4 +1,3 @@
-import React from "react";
 import "./intro.css";
 import iPhone from "../../assets/images/iPhone.png";
 import appleStore from "../../assets/images/Apple Store.png";

@@ -12,3 +12,69 @@
 .crewTitle {
     color: var(--tan);
 }
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper i {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    transition: transform 0.1s linear;
+}
+
+#left {
+    left: -22px;
+}
+
+#right {
+    right: -22px;
+}
+
+.carousel {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 5) - 80px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    border-radius: 12px;
+    scroll-behavior: smooth;
+    scrollbar-width:  none;
+}
+
+.carousel .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+    height: 200px;
+    width: 400px;
+}
+
