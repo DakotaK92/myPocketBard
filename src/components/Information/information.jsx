@@ -1,10 +1,10 @@
 import "./information.css";
-import art0 from "../../assets/images/Art 0.jpg"
-import art1 from "../../assets/images/Art 1.jpg"
-import art2 from "../../assets/images/Art 2.jpg"
-import art3 from "../../assets/images/Art 3.jpg"
-import art4 from "../../assets/images/Art 4.jpg"
-import art5 from "../../assets/images/Art 5.jpg"
+import art0 from "../../assets/images/Resize 1.png"
+import art1 from "../../assets/images/Resize 2.png"
+import art2 from "../../assets/images/Resize 3.png"
+import art3 from "../../assets/images/Resize 4.png"
+import art4 from "../../assets/images/Resize 5.png"
+import art5 from "../../assets/images/Resize 6.png"
 
 const Information = () => {
     return (
