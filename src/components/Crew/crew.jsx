@@ -1,4 +1,5 @@
 import "./crew.css";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import img1 from "../../assets/images/Chase.png";
 import img2 from "../../assets/images/Janette.png";
 import img3 from "../../assets/images/Jason.png";
@@ -10,6 +11,7 @@ const Crew = () => {
         <div className="crewContainer">
             <h1 className="crewTitle">Meet the Crew</h1>
             <div className="wrapper">
+                {/*<FontAwesomeIcon icon="fa-solid fa-angle-left" />*/}
                 <i id="left" className="fa-solid fa-angle-left"></i>
                     <ul className="carousel">
                         <li className="card">
@@ -39,6 +41,7 @@ const Crew = () => {
                         </li>
                     </ul>
                 <i id="right" className="fa-solid fa-angle-right"></i>
+                {/*<FontAwesomeIcon icon="fa-solid fa-angle-right" />*/}
             </div>
         </div>
     )
