@@ -7,3 +7,50 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.priceContainer .priceTitle h1 {
+    color: red;
+}
+
+.priceContainer .priceDescription p {
+    color: blue;
+}
+
+.priceSwitch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceSwitch .priceSwitchOption {
+    width: 50%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.freeContainer {
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.freeContainer .amount {
+    color: green;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+}
+
+.premiumContainer {
+    width: 50%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}   

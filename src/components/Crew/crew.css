@@ -20,6 +20,7 @@
     position: relative;
 }
 
+/*Scroll Button*/
 .wrapper i {
     position: absolute;
     top: 50%;
@@ -36,10 +37,12 @@
     transition: transform 0.1s linear;
 }
 
+/*Left Button*/
 #left {
     left: -22px;
 }
 
+/*Right Button*/
 #right {
     right: -22px;
 }
@@ -57,6 +60,7 @@
     scroll-behavior: smooth;
     scrollbar-width:  none;
     height: 200px;
+    width: auto;
 }
 
 .carousel .card {
@@ -76,7 +80,6 @@
 .img3,
 .img4,
 .img5 {
-    height: 200px;
+    height: 300px;
     width: auto;
 }
-
