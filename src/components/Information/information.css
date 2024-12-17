@@ -11,7 +11,7 @@
 
 .infoTitle {
     margin-top: 20px;
-    flex-direction: column; 
+    text-align: center; 
 }
 
 .infoTitle h1 {
