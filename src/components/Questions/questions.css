@@ -1,6 +1,6 @@
 .questionsContainer {
     width: 100%;
-    height: 650px;
+    height: 800px;
     background: white;
     display: flex;
     align-items: center;
@@ -31,8 +31,14 @@ u {
     padding: 20px;
 }
 
-h1 {
+.leftQuestions h1 {
+    font-size: .5em;
+    margin-bottom: 20px;
+}
+
+.leftQuestions p {
     font-size: 1rem;
+    margin-bottom: 20px;
 }
 
 .leftQuestions {
@@ -48,5 +54,15 @@ h1 {
 .rightQuestions {
     width: 50%;
     float: right;
+    font-size: .5rem;
+}
+
+.rightQuestions h1 {
     font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.rightQuestions p {
+    font-size: 1rem;
+    margin-bottom: 20px;
 }

@@ -4,7 +4,71 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     background: rgb(198,113,90);
     background: linear-gradient(270deg, rgba(198,113,90,1) 0%, rgba(254,182,107,1) 100%);
+}
+
+.leftContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.socailsContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.googlePlay {
+    margin: 10px 0;
+    width: 100px;
+    height: auto;
+    margin: 5px ;
+}
+
+.appleStore {
+    margin: 10px 0;
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
+
+.lineBreak {
+    border-left: 2px solid black;
+    height: 10%;
+    margin-left: -3px;
+    
+}
+
+.rightContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.downloadDescription {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }

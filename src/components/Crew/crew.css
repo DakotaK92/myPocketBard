@@ -1,6 +1,6 @@
 .crewContainer {
     width: 100%;
-    height: 400px;
+    height: 500px;
     background: rgb(198,113,90);
     background: linear-gradient(90deg, rgba(198,113,90,1) 0%, rgba(153,42,42,1) 100%);
     display: flex;
@@ -13,6 +13,7 @@
     color: var(--tan);
     padding: 20px;
     font-size: 2rem;
+    margin-top: -25px;
 }
 
 .wrapper {
@@ -62,15 +63,10 @@
     scrollbar-width:  none;
     height: 200px;
     width: auto;
+    overflow: hidden;
 }
 
 .carousel .card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.carousel .img {
     display: flex;
     align-items: center;
     justify-content: center;
