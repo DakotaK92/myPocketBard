@@ -10,10 +10,10 @@ const Price = () => {
             </div>
             <div className="priceSwitch">
                 <div className="priceSwitchOption1">
-                    <p className="priceSwitchOptionText1">Free</p>
+                    <h1 className="priceSwitchOptionText1">Free</h1>
                 </div>
                 <div className="priceSwitchOption2">
-                    <p className="priceSwitchOptionText2">Premium</p>
+                    <h1 className="priceSwitchOptionText2">Premium</h1>
                 </div>
             </div>
             <div className="priceOptions">
