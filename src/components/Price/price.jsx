@@ -26,7 +26,7 @@ const Price = () => {
                 </div>
                 <div className="premiumContainer">
                     <div className="premiumButton">
-                        <p className="premiumText">Open Worlds</p>
+                        <h4 className="premiumText">Open Worlds</h4>
                         <p className="amount">$6.99</p>
                     </div>
                     <div className="amountContainer">
