@@ -2,7 +2,7 @@ import "./questions.css";
 
 const Questions = () => {
     return (
-       <div className="questionsContainer">
+       <section className="questionsContainer">
             <div className="headerQuestions">
                 <h1>Freqently asked Questions</h1>
                 <p>If you have anything else you want to ask, <u>reach out to us!</u></p>
@@ -52,7 +52,7 @@ const Questions = () => {
                     </p>
                 </div>
             </div>
-       </div>
+       </section>
         
     )
 };

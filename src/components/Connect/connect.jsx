@@ -1,6 +1,7 @@
 import "./connect.css";
 import appleStore from "../../assets/images/Apple Store.png";
 import googlePlay from "../../assets/images/Google Play.png";
+import { BsDiscord } from "react-icons/bs";
 
 const Connect = () => {
     return (
@@ -18,8 +19,9 @@ const Connect = () => {
                 <h1 className="downloadTitle">Join our community</h1>
                 <p className="downloadDescription">Folow development updates, feeback, and connect with <br/>
                     the team and other Pocket Bard users!</p>
-                <div className="discord"></div>
-                {/*<img src=""></img>*/}
+                <a href="https://discord.com/invite/pocket-bard" target="_blank" className="discordConnect">
+                    <BsDiscord />
+                </a>
             </div>
         </div>
     )

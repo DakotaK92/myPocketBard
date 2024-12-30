@@ -5,14 +5,15 @@ import img2 from "../../assets/images/Janette.png";
 import img3 from "../../assets/images/Jason.png";
 import img4 from "../../assets/images/Nick.png";
 import img5 from "../../assets/images/Zack.png";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 const Crew = () => {
     return (
         <div className="crewContainer">
             <h1 className="crewTitle">Meet the Crew</h1>
             <div className="wrapper">
-                {/*<FontAwesomeIcon icon="fa-solid fa-angle-left" />*/}
-                <i id="left" className="fa-solid fa-angle-left"></i>
+                <i id="left"><IoIosArrowBack /></i>
                     <ul className="carousel">
                         <li className="card">
                             <div className="img1">
@@ -40,8 +41,7 @@ const Crew = () => {
                             </div>
                         </li>
                     </ul>
-                <i id="right" className="fa-solid fa-angle-right"></i>
-                {/*<FontAwesomeIcon icon="fa-solid fa-angle-right" />*/}
+                <i id="right"><IoIosArrowForward /></i>
             </div>
         </div>
     )

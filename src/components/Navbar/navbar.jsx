@@ -1,17 +1,18 @@
 import "./navbar.css";
 import logo from "../../assets/logo.png";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     return (
-        <div className="navbar">
+        <nav className="navbar">
             <img src={logo} alt="logo" className="logo"/>
             <div className="desktopMenu">
-                <h2>Features</h2>
-                <h2>Price</h2>
-                <h2>FAQs</h2>
+                <Link to="infoContainer" className="infoButton" smooth={true} duration={1000}>Features</Link>
+                <Link to="priceContainer" className="priceButton" smooth={true} duration={1000}>Price</Link>
+                <Link to="questionsContainer" className="questionsButton" smooth={true} duration={1000}>FAQs</Link>
             </div>
             <div className="empty"></div>
-        </div>
+        </nav>
     ) 
 };
 

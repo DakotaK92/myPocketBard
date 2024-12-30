@@ -31,7 +31,9 @@
     width: 100%;
 }
 
-h2 {
+.infoButton,
+.priceButton,
+.questionsButton {
     background-color: white;
     align-items: center;
     justify-content: center;
@@ -40,9 +42,10 @@ h2 {
     margin: 20px;
     display: flex;
     cursor: pointer;
+    font-size: 1.5rem;
 }
 
-h2:hover {
+.desktopMenu :hover {
     background-color: var(--tan);
 }
 

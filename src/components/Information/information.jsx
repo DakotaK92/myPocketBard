@@ -8,7 +8,7 @@ import art5 from "../../assets/images/Resize 6.png"
 
 const Information = () => {
     return (
-        <div className="infoContainer">
+        <section className="infoContainer">
             <h1 className="infoTitle">Craft the perfect soundscape with interactive<br></br>
             music and dynamic sound effects</h1>
             <div className="artContainer">
@@ -35,7 +35,7 @@ const Information = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         
     )
 };

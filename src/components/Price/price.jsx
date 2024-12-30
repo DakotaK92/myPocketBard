@@ -2,7 +2,7 @@ import "./price.css";
 
 const Price = () => {
     return (
-        <div className="priceContainer">
+        <section className="priceContainer">
             <div className="heading">
                 <h1 className="priceTitle">Free and premium offerings</h1>
                 <p className="priceDescription">Enjoy hours of free, high-quality content right away. Upgrade to premium to access
@@ -46,7 +46,7 @@ const Price = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 };
 
