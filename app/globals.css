@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Caudex', serif;
+}
+
+:root {
+  --tan: #FEB66B;
+  --brown: #c6715a;
+  --lightBlue: #c5e1ed;
+  --darkRed: #992a2a;
+  --white: #fff;
+  --black: #000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
