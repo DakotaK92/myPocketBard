@@ -46,19 +46,19 @@ export default function Header() {
 
         <nav className="hidden xl:flex gap-6 text-black justify-center items-center">
           <button
-            className="hover:border px-4 py-2 rounded-md transition-colors duration-300"
+            className="hover:border border-gray-300 px-4 py-2 rounded-md transition-colors duration-300"
             onClick={() => scrollTo("features")}
           >
             Features
           </button>
           <button
-            className="hover:border px-4 py-2 rounded-md transition-colors duration-300"
+            className="hover:border border-gray-300 px-4 py-2 rounded-md transition-colors duration-300"
             onClick={() => scrollTo("price")}
           >
             Price
           </button>
           <button
-            className="hover:border px-4 py-2 rounded-md transition-colors duration-300"
+            className="hover:border border-gray-300 px-4 py-2 rounded-md transition-colors duration-300"
             onClick={() => scrollTo("questions")}
           >
             FAQs

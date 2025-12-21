@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <section className="flex items-center px-6 border-b border-1 border-gray-300">
+    <section className="flex items-center px-6 border-b border-gray-300">
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto">
         
         {/* LEFT: Text + App Store badges */}
