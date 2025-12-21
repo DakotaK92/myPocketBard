@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import MobileNav from "./MobileNav";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -35,34 +36,40 @@ export default function Header() {
     >
       <div className="flex items-center justify-between max-w-6xl mx-auto px-4">
         <Image
-          src="/assets/logo.png"
+          src="/assets/pb-horizontal-logo.webp"
           alt="myPocketBard logo"
-          width={scrolled ? 140 : 180} // Shrink logo
+          width={scrolled ? 140 : 180}
           height={40}
           priority
           className="transition-all duration-300"
         />
 
-        <nav className="flex gap-6 text-black">
+        <nav className="hidden xl:flex gap-6 text-black justify-center items-center">
           <button
-            className="hover:bg-amber-500 hover:text-white px-4 py-2 rounded-md transition-colors duration-300"
+            className="hover:border px-4 py-2 rounded-md transition-colors duration-300"
             onClick={() => scrollTo("features")}
           >
             Features
           </button>
           <button
-            className="hover:bg-amber-500 hover:text-white px-4 py-2 rounded-md transition-colors duration-300"
+            className="hover:border px-4 py-2 rounded-md transition-colors duration-300"
             onClick={() => scrollTo("price")}
           >
             Price
           </button>
           <button
-            className="hover:bg-amber-500 hover:text-white px-4 py-2 rounded-md transition-colors duration-300"
+            className="hover:border px-4 py-2 rounded-md transition-colors duration-300"
             onClick={() => scrollTo("questions")}
           >
             FAQs
           </button>
         </nav>
+
+
+        {/* Mobile navigation */}
+        <div className="xl:hidden">
+          <MobileNav />
+        </div>
       </div>
     </header>
   );

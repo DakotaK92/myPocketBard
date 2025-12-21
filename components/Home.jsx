@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <section className="min-h-screen flex items-center px-6 border-b border-gray-200">
-      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto gap-12 border-b border-gray-200">
+    <section className="flex items-center px-6 border-b border-1 border-gray-300">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto">
         
         {/* LEFT: Text + App Store badges */}
         <div className="md:w-1/2 text-left ">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-5xl font-bold mb-4">
             Immersive Audio Made Simple
           </h1>
-          <p className="text-lg text-gray-600 mb-6">
+          <p className="text-xl text-gray-600 mb-6">
             Nothing breaks the flow of tabletop gaming like a clunky audio setup.
             Storytelling should feel effortless, not distracted by tech.
             Pocket Bard keeps you present, confident, and ready for the moments

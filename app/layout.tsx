@@ -12,7 +12,7 @@ const caudex = Caudex({
 });
 
 export const metadata = {
-  title: "myPocketBard",
+  title: "myPocketBard - Immersive Audio App",
   description: "Pocket Bard - Immersive Audio App",
   icons: {
     icon: "/favicon.ico",
