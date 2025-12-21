@@ -1,4 +1,5 @@
 import { Caudex } from "next/font/google";
+import type { ReactNode } from "react";
 import "./globals.css";
 
 import Header from "@/components/Header";
@@ -18,7 +19,11 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+type RootLayoutProps = {
+  children: ReactNode;
+};
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className={caudex.variable}>
