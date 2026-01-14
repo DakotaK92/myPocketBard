@@ -2,7 +2,7 @@ import { FaDiscord, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-gray-300 px-6 py-8">
+    <footer className="px-6 py-8">
       {/* Top row: logo, links, socials */}
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto">
         
