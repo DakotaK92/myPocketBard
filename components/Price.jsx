@@ -1,5 +1,3 @@
-import React from "react";
-
 const features = [
   {
     title: "Free Version",
@@ -24,13 +22,13 @@ const features = [
 
 const Price = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 p-8 bg-gray-50">
+    <div className="flex flex-col md:flex-row justify-center gap-8 p-8 bg-gray-50">
       {features.map((plan) => (
         <div
           key={plan.title}
           className={`flex-1 p-6 rounded-xl shadow-md ${plan.color} flex flex-col`}
         >
-          <h2 className="text-2xl font-bold mb-4">{plan.title}</h2>
+          <h2 className="text-4xl font-bold mb-4">{plan.title}</h2>
           <ul className="flex-1 space-y-2">
             {plan.features.map((feature, index) => (
               <li key={index} className="flex items-center gap-2">
