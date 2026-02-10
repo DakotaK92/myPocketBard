@@ -57,7 +57,7 @@ const Crew = () => {
           <img
             src={image}
             alt={name}
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full bg-orange-300"
           />
         </div>
 

@@ -36,7 +36,7 @@ export default function Header() {
     >
       <div className="flex items-center justify-between max-w-6xl mx-auto px-4">
         <Image
-          src="/assets/pb-horizontal-logo.webp"
+          src="/assets/pb-horizontal-logo-edit.webp"
           alt="myPocketBard logo"
           width={scrolled ? 140 : 180}
           height={40}
