@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 body {
-  font-family: 'Caudex', serif;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 :root {

@@ -1,4 +1,5 @@
 import { FaDiscord, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -8,10 +9,12 @@ const Footer = () => {
         
         {/* Left: logo + info + links */}
         <div className="flex items-center mb-6 md:mb-0">
-          <img
+          <Image
             src="/assets/images/lute.png"
             alt="Pocket Bard logo"
-            className="w-12 h-auto"
+            width={48}
+            height={104}
+            className="h-auto w-12"
           />
           <div className="ml-4">
             <p className="text-xl text-black">Pocket Bard</p>

@@ -18,6 +18,7 @@ export default function Header() {
     };
 
     window.addEventListener("scroll", handleScroll);
+    handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -41,24 +42,25 @@ export default function Header() {
           width={scrolled ? 140 : 180}
           height={40}
           priority
-          className="transition-all duration-300"
+          className="transition-all duration-300 cursor-pointer"
+          onClick={() => scrollTo("home")}
         />
 
         <nav className="hidden xl:flex gap-6 text-black justify-center items-center">
           <button
-            className="hover:border border-gray-300 px-4 py-2 rounded-md transition-colors duration-300"
+            className="border border-transparent hover:border-gray-300 px-4 py-2 rounded-md transition-colors duration-300"
             onClick={() => scrollTo("features")}
           >
             Features
           </button>
           <button
-            className="hover:border border-gray-300 px-4 py-2 rounded-md transition-colors duration-300"
+            className="border border-transparent hover:border-gray-300 px-4 py-2 rounded-md transition-colors duration-300"
             onClick={() => scrollTo("price")}
           >
             Price
           </button>
           <button
-            className="hover:border border-gray-300 px-4 py-2 rounded-md transition-colors duration-300"
+            className="border border-transparent hover:border-gray-300 px-4 py-2 rounded-md transition-colors duration-300"
             onClick={() => scrollTo("questions")}
           >
             FAQs
