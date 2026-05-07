@@ -50,9 +50,3 @@ public/assets/
   images/          App, crew, logo, and store badge images
   features/        Animated feature previews
 ```
-
-## Notes
-
-This project is currently a frontend-only landing page. App store links, feature
-copy, pricing text, crew information, and FAQ content are managed directly in the
-React components.
