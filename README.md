@@ -10,6 +10,8 @@ hero, app features, crew, pricing, frequently asked questions, and footer links.
 It uses Pocket Bard imagery, app preview GIFs, store badges, and social links to
 give visitors a quick path from learning about the app to downloading it.
 
+![Banner](/public/assets/mypoketbard-banner.png)
+
 ## Features
 
 - Hero section with app positioning and download badges
